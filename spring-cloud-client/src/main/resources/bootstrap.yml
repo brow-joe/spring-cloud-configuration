@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: variablesconfig
+  cloud:
+    config:
+      label: configuration
+      uri: http://localhost:8888/configserver
