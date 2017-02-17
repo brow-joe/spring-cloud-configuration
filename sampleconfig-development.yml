@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/anotherdatabaseproject
+    username: userdatabaseproject
+    password: passwddatabaseproject
+    driverClassName: com.mysql.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
