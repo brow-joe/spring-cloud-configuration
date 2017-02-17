@@ -1,3 +1,5 @@
-global:
-  variable:
-    see: All view this
+server:
+  port: ${PORT:3000}    
+endpoints:
+  restart:
+    enabled: true
